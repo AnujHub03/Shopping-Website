@@ -1,8 +1,11 @@
 import React from 'react'
+import MainPage from '../Components/MainPage'
 
 const HomePage = () => {
   return (
-    <div className='text-red-400'>HomePage</div>
+    <div >
+      <MainPage/>
+    </div>
   )
 }
 
