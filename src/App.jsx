@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Products from './Pages/Products'
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Navbar/>
      <Routes>
       <Route path='/' element={<HomePage/>}></Route>
+      <Route path='/Products' element={<Products/>}></Route>
      </Routes>
      <Footer/>
     </>
