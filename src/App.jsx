@@ -8,6 +8,7 @@ import HomePage from './Pages/HomePage'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Products from './Pages/Products'
+import AboutUs from './Pages/AboutUs'
 
 
 
@@ -20,6 +21,7 @@ function App() {
      <Routes>
       <Route path='/' element={<HomePage/>}></Route>
       <Route path='/Products' element={<Products/>}></Route>
+      <Route path='/About' element={<AboutUs/>}></Route>
      </Routes>
      <Footer/>
     </>
