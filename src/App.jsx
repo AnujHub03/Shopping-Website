@@ -10,6 +10,7 @@ import Footer from './Components/Footer'
 import Products from './Pages/Products'
 import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
+import LoginPage from './LoginPage'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route path='/Products' element={<Products/>}></Route>
       <Route path='/About' element={<AboutUs/>}></Route>
       <Route path='/Contact' element={<Contact/>}></Route>
+      <Route path='/LoginPage' element={<LoginPage/>}></Route>
      </Routes>
      <Footer/>
     </>
