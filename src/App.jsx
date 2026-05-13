@@ -11,6 +11,7 @@ import Products from './Pages/Products'
 import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
 import LoginPage from './LoginPage'
+import CartPage from './CartPage'
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='/About' element={<AboutUs/>}></Route>
       <Route path='/Contact' element={<Contact/>}></Route>
       <Route path='/LoginPage' element={<LoginPage/>}></Route>
+      <Route path='/CartPage' element={<CartPage/>}></Route>
      </Routes>
      <Footer/>
     </>
