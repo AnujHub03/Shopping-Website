@@ -12,6 +12,7 @@ import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
 import LoginPage from './LoginPage'
 import CartPage from './CartPage'
+import Favourites from './Pages/Favourites'
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path='/Contact' element={<Contact/>}></Route>
       <Route path='/LoginPage' element={<LoginPage/>}></Route>
       <Route path='/CartPage' element={<CartPage/>}></Route>
+      <Route path='/Favourites' element={<Favourites/>}></Route>
      </Routes>
      <Footer/>
     </>
