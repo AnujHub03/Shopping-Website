@@ -1,4 +1,5 @@
 import React from "react";
+import mainImage from '../assets/mainImage.jpg'
 
 const MainPage = () => {
   return (
@@ -16,7 +17,7 @@ const MainPage = () => {
         <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-12 lg:gap-24">
           
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-            <div className="w-full max-w-lg aspect-[4/3] md:aspect-square rounded-3xl shadow-2xl border border-white/10 overflow-hidden bg-cover bg-center bg-[url('src/assets/mainImage.jpg')]">
+            <div className="w-full max-w-lg aspect-[4/3] md:aspect-square rounded-3xl shadow-2xl border border-white/10 overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url('${mainImage}')` }}>
             </div>
           </div>
 
